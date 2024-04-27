@@ -112,6 +112,8 @@ void AnimationFrog::update_animation_frog(int velocity_x_current, int velocity_y
 
 ### Frog klasse
 
+de set_next_node() functie staat hier niet in omdat ze automatisch aangeroepen wordt in animation system
+
 hpp file
 ``` Cpp
 class Frog : public GameObject {
